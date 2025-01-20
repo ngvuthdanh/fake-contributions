@@ -1,0 +1,3 @@
+url = "http://example.com/vulnerable_page?file="
+check_directory_traversal(url)
+
