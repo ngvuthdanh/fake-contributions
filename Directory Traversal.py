@@ -15,4 +15,4 @@ def check_directory_traversal(url):
         
         if "Permission denied" in response.text or "404 Not Found" not in response.text:
             print(f"[+] Directory Traversal vulnerability found at: {url} with payload: {payload}")
-            break
+            break.
